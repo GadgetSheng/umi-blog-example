@@ -15,3 +15,15 @@ Generate mock -- Generate mock boilerplate code
 Enable E2E Testing with Cypress -- Setup Cypress Configuration
 Generator api -- Generate api route boilerplate code
 ```
+
+## Blog STEPS
+使用 在线免费Serverless MySql
+https://app.planetscale.com/steven7sheng/umi-blog-example
+Connect with [Prisma]
+```
+DATABASE_URL='mysql://abcdefg:**********@us-east.connect.psdb.cloud/umi-blog-example?sslaccept=strict'
+```
+推送db配置，生成
+`npx prisma db push --preview-feature`
+生成
+`npx prisma generate`
